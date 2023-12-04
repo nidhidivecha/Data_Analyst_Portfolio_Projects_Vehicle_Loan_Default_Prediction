@@ -53,3 +53,6 @@ Validated results using a confusion matrix.
 🔹 **Building Dashboard**
 
 Visualized data using Tableau to enhance user exploration and understanding, aiding in informed decision-making.
+
+![Vehicle Loan Default Prediction](https://github.com/nidhidivecha/Vehicle_Loan_Default_Prediction/assets/54711762/36616258-5086-497d-9c4a-d6cf6ada3d68)
+
