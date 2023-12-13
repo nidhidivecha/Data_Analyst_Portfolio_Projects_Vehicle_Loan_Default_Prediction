@@ -20,8 +20,10 @@ Provided statistical insights into quantitative data variables.
 Examined the distribution of the target variable (defaulters/non-defaulters).
 
 **Categorical Variable Analysis:**
-Studied target variable distribution across categories (branch, city, state, supplier, manufacturer).
-Explore employment types and devise strategies to handle missing values.
+Studied target variable distribution across various categories (branch, city, state, supplier, manufacturer).
+
+**Employment Types:** 
+Explored different employment types and devise strategies to handle missing values.
 
 **Age Analysis:**
 Investigated the relationship between age and loan defaulters.
@@ -36,7 +38,7 @@ Studied credit bureau score distribution for defaulters vs. non-defaulters.
 Explored the relationship between account details and loan default probability.
 
 **Sanctioned vs. Disbursed Amount Analysis:**
-Analyze the difference between sanctioned and disbursed amounts for primary and secondary loans.
+Analyzed the difference between sanctioned and disbursed amounts for primary and secondary loans.
 
 **Enquiries and Risk:**
 Investigated if customers with a higher number of enquiries are higher risk candidates.
