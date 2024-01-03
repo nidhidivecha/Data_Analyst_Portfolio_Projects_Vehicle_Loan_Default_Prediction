@@ -48,6 +48,7 @@ Detected Outliers by plotting a Box plot of the quantitative data such as 'disbu
 
 
 🔹**Feature Engineering:**
+
 •	Separating features and target variables.
 
 •	Y as dependent variables
@@ -57,6 +58,7 @@ Detected Outliers by plotting a Box plot of the quantitative data such as 'disbu
 •	Since our dataset is imbalanced, tried to balance it using Under Sampling technique using SMOTE (Synthetic Minority Oversampling Technique)
 
 🔹**Model Building:**
+
 Training and Testing: 
 •	splitting the dataframes into training and testing sets (x_train, x_test, y_train, and y_test)
 
