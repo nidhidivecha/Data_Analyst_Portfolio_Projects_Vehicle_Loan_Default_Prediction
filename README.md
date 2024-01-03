@@ -1,60 +1,70 @@
 # Vehicle_Loan_Default_Prediction
 
 
-🔹 **About the Project**
+🔹 **Aim of the Project**
 
 Financial institutions face significant losses due to vehicle loan defaults, leading to increased rejection rates. This project aims to analyze a dataset with 41 attributes to determine factors affecting vehicle loan default ratios and create a predictive model.
 
-🔹**Key Visualizations:**
+🔹**Domain: Finance**
+
+🔹**Flow of the Project:**
 
 **Data Inspection:** Conducted preliminary data inspection to understand the structure of the data.
 
 **Dealing with Missing Values:** Identified missing values, duplicates, and cleaned variable names.
 
-### Exploratory Data Analysis (EDA)
+🔹**Exploratory Data Analysis (EDA):**
 
 **Statistical Description:**
-Provided statistical insights into quantitative data variables.
+Provided statistical description of the variables used in the dataset.
 
 **Target Variable Analysis:**
-Examined the distribution of the target variable (defaulters/non-defaulters).
+Examined the distribution of the target variable (defaulters/non-defaulters) using a Count plot & found this is an Imbalanced dataset
 
 **Categorical Variable Analysis:**
-Studied target variable distribution across various categories (branch, city, state, supplier, manufacturer).
+Studied target variable distribution across various categories (branch, state, manufacturer) and visualized it using bar charts.
 
 **Employment Types:** 
-Explored different employment types and devise strategies to handle missing values.
+Used pie charts to show the distribution of different Employment types such as Salaried and Self-employed and devise strategies to handle missing values. 
 
 **Age Analysis:**
-Investigated the relationship between age and loan defaulters.
+Investigated the relationship between age and loan defaulters by plotting the distribution of age w.r.t defaulters and non-defaulters.
 
 **Proof of Identity:**
-Determined the most common proof of identity presented by customers.
+Determined the most common type of ID presented by customers as proof.
 
-**Credit Bureau Score Analysis:**
-Studied credit bureau score distribution for defaulters vs. non-defaulters.
+**Heatmap for Correlation**
+Plotted a Heatmap to find the Correlation between the target variable and other variables used in the dataset.
 
 **Primary and Secondary Account Details:**
-Explored the relationship between account details and loan default probability.
+Explored the relationship between primary and secondary account details and loan default probability.
 
-**Sanctioned vs. Disbursed Amount Analysis:**
-Analyzed the difference between sanctioned and disbursed amounts for primary and secondary loans.
-
-**Enquiries and Risk:**
-Investigated if customers with a higher number of enquiries are higher risk candidates.
-
-**Credit History Analysis:**
-Examined the impact of credit history on loan default probability.
-
-**Logistic Regression Modeling:**
-Performed logistic regression modeling to predict outcomes for test data.
-Validated results using a confusion matrix.
+**Outlier Detection:** 
+Detected Outliers by plotting a Box plot of the quantitative data such as 'disbursed_amount', 'asset_cost', 'ltv','PERFORM_CNS_SCORE','age'.
 
 
+🔹**Feature Engineering:**
+•	Separating features and target variables.
+•	Y as dependent variables
+•	X as the independent variable
 
-🔹 **Building Dashboard**
+•	Since our dataset is imbalanced, tried to balance it using Under Sampling technique using SMOTE (Synthetic Minority Oversampling Technique)
 
-Visualized data using Tableau to enhance user exploration and understanding, aiding in informed decision-making.
+🔹**Model Building:**
+Training and Testing: 
+•	splitting the dataframes into training and testing sets (x_train, x_test, y_train, and y_test)
+•	Used various models such as Logistic Regression modeling, Random Forest, KNN to predict outcomes for test data.
+
+🔹**Model Evaluation:**
+•	Evaluated and validated results using the confusion matrix.
+•	Presented the performance metrics such as accuracy, precision, recall, f1-score, and support and discussed the model's effectiveness.
+
+🔹**Conclusion:**
+From the observation, we can see that the KNN model performs better with an accuracy score of 70.34%.
+
+🔹 **Building Dashboard:**
+
+Visualized data using Tableau to enhance user exploration and understanding, aiding in informed business decision-making.
 
 ![Vehicle Loan Default Prediction](https://github.com/nidhidivecha/Vehicle_Loan_Default_Prediction/assets/54711762/36616258-5086-497d-9c4a-d6cf6ada3d68)
 
