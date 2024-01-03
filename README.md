@@ -9,9 +9,13 @@ Financial institutions face significant losses due to vehicle loan defaults, lea
 
 🔹**Flow of the Project:**
 
-**Data Inspection:** Conducted preliminary data inspection to understand the structure of the data.
+🔹**Data Inspection:**
+Conducted preliminary data inspection to understand the structure of the data.
 
-**Dealing with Missing Values:** Identified missing values, duplicates, and cleaned variable names.
+🔹**Data Collection:**
+
+🔹**Data Cleaning and Preprocessing:**
+Identified missing values, duplicates, and cleaned variable names.
 
 🔹**Exploratory Data Analysis (EDA):**
 
@@ -45,7 +49,9 @@ Detected Outliers by plotting a Box plot of the quantitative data such as 'disbu
 
 🔹**Feature Engineering:**
 •	Separating features and target variables.
+
 •	Y as dependent variables
+
 •	X as the independent variable
 
 •	Since our dataset is imbalanced, tried to balance it using Under Sampling technique using SMOTE (Synthetic Minority Oversampling Technique)
@@ -53,17 +59,18 @@ Detected Outliers by plotting a Box plot of the quantitative data such as 'disbu
 🔹**Model Building:**
 Training and Testing: 
 •	splitting the dataframes into training and testing sets (x_train, x_test, y_train, and y_test)
+
 •	Used various models such as Logistic Regression modeling, Random Forest, KNN to predict outcomes for test data.
 
 🔹**Model Evaluation:**
 •	Evaluated and validated results using the confusion matrix.
+
 •	Presented the performance metrics such as accuracy, precision, recall, f1-score, and support and discussed the model's effectiveness.
 
 🔹**Conclusion:**
-From the observation, we can see that the KNN model performs better with an accuracy score of 70.34%.
+From the observation, we can see that the **KNN model** performs better with an **accuracy score of 70.34%**.
 
 🔹 **Building Dashboard:**
-
 Visualized data using Tableau to enhance user exploration and understanding, aiding in informed business decision-making.
 
 ![Vehicle Loan Default Prediction](https://github.com/nidhidivecha/Vehicle_Loan_Default_Prediction/assets/54711762/36616258-5086-497d-9c4a-d6cf6ada3d68)
